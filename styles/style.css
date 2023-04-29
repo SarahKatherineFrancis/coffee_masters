@@ -1,0 +1,40 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+
+.page {
+  display: grid;
+  grid-template-areas:
+  "order payment"
+  "total total";
+  background-color: #EFEFEF;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #43281C;
+  height: 70px;
+  color: #FAF2BF;
+  font-weight: normal;
+}
+
+.logo {
+  height: 25px;
+  position: relative;
+  top: 3px;
+}
+
+.order {
+  grid-area: order;
+}
+
+.payment {
+  grid-area: payment;
+}
+
+.total {
+  grid-area: total;
+}
